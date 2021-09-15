@@ -1,0 +1,160 @@
+﻿@import url("layout.css");
+body {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	background-image: url("../images/sand.jpg");	
+	
+}
+#container {
+	border-right: 0px solid #484848;
+	border-bottom: 0px solid #484848;
+	border-left: 0px solid #484848;
+	background-color: #fff;
+}
+#masthead {
+	text-align: right;
+	background-color: #ffffff;
+	background-image: url('../images/header.png');
+	background-position: top;
+	background-repeat: no-repeat;
+}
+#navigation {
+	border-top: 1px solid #7D3D26;
+	border-bottom: 1px solid #7D3D26;
+	background-color: #7D3D26;
+}
+html>body #navigation {
+	overflow: hidden;
+}
+#column_l {
+	width: 500px;
+	padding: 10px;
+	background-color: #fff;
+}
+html>body #column_l {
+	width: 500px;
+	padding: 0 10px;
+	background-color: #fff;
+}
+#column_r {
+	width: 262px;	
+	padding: 3px 1px;	
+	background-color: #EAC495;
+}
+html>body #column_r {
+	width: 270px;
+	padding: 3px 1px;
+	background-color: #EAC495;
+}
+#content {
+	background-color: #fff;
+	width: 800px;
+	padding: 3px 1px;
+
+}
+#footer {
+	text-align: right;
+	padding-bottom: 10px;
+	background-color: #7D3D26;
+	color: #ffffff;
+}
+html>body #footer {
+	text-align: right;
+	padding-bottom: 0;
+}
+/* Masthead */
+#masthead h1 {
+	color: #8b0000;
+	margin-right: 0.5em;
+	margin-bottom: 0;
+}
+#masthead h3 {
+	color: #000;
+	margin-top: 0;
+	margin-right: 1em;
+}
+/* Navigation */
+#navigation ul {
+	list-style-type: none;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#navigation li {
+	float: left;
+}
+#navigation a {
+	text-decoration: none;
+	color: #ffffff;
+	display: block;
+	padding: 5px;
+	border: 1px solid #7D3D26;
+	background-color: #7D3D26;
+	
+
+}
+#navigation a:hover {
+	text-decoration: none;
+	color: #ffffff;
+	border: 1px solid #fea;
+	background-color: #88a616;
+}
+/* Site typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Fredoka One", "lucida grande", tahoma, sans-serif;
+  font-weight: 200;
+  letter-spacing: 0.03em;
+  line-height: 1.625em;
+  margin: 0;
+  color: #009999;
+;
+}
+
+/* line 56, ../sass/screen.sass */
+h1 {
+  font-size: 16px;
+  line-height: 1.2em;
+  color: #009999;
+
+}
+
+/* line 60, ../sass/screen.sass */
+h2 {
+  font-size: 14px;
+  line-height: 1.45em;
+  margin-bottom: 0.2em;
+  color: #009999;
+}
+
+/* line 65, ../sass/screen.sass */
+h3 {
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #009999;
+}
+
+/* line 71, ../sass/screen.sass */
+h4 {
+  font-size: 12px;
+}
+/* Footer */
+#footer p {
+	font-size: x-small;
+	color: #ffffff;
+}
+/* Links */
+a {
+	color: #8b0000;
+	text-decoration: underline;
+}
+a:hover {
+	color: #fa3;
+	text-decoration: underline;
+}
+.style_bold {
+	font-weight: bold;
+}
+.style_italic {
+	font-style: italic;
+}
